@@ -1,0 +1,69 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+*, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Space Mono', monospace;
+  color: #333;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4F4F4F;
+}
+
+button {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  background-color: #333;
+  color: #fff;
+  width: 216px;
+  height: 68px;
+  border: 0;
+}
+
+img {
+  width: 540px;
+  height: 448px;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+}
